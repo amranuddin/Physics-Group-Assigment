@@ -4,15 +4,11 @@ using namespace std;
 
 int main()
 {
-    float thita;
     
-    cout<<"Enter angle in degrees: ";
-    
-    cin >> thita;
 
     float pi=3.1416;
     
-    double tr=thita*pi/180;
+    double tr=45*pi/180;
 
    
     float ratio = 1 / sin(tr);
