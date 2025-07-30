@@ -6,7 +6,7 @@ int main()
 {
     
 
-    float pi=3.14159;
+    float pi=3.1416;
     
     float tr=45*pi/180;
 
