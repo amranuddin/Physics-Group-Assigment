@@ -12,7 +12,7 @@ int main()
 
     float pi=3.1416;
     
-    float tr = thita * pi / 180;
+    double tr=thita*pi/180;
 
    
     float ratio = 1 / sin(tr);
