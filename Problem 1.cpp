@@ -1,29 +1,29 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void mthorder (double lem)
+void mthorder (float lem)
 {
-     double thita,d;
+     float thita,d;
     cout <<"Enter value of angle (in degrees): ";
     cin >>thita;
 
     cout <<"Enter slit separation d (in µm): ";
     cin>>d;
 
-    double tr=thita * 3.1416/180;
+    double tr=thita*3.1416 /180;
     
-    double dnm = d * 1000; 
+    double dnm = d*1000; 
 
-    int m=round((dnm * sin(tr)) / lem);
+    int m=round( (dnm*sin(tr) ) / lem);
 
-    cout <<"The final answer: "<<m<<" -th order maxima.";
+    cout <<"The final answer: "<<m<<"-th order maxima.";
 
     }
 
 
 int main()
 {
-    double lemda; 
+    float lemda; 
 
     cout << "Enter value of wavelength (in nm): ";
     cin >> lemda;
@@ -41,4 +41,3 @@ int main()
     }
     
 }
-
