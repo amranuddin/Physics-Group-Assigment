@@ -11,7 +11,7 @@ int main()
     double tr=45*pi/180;
 
    
-    float ratio = 1 / sin(tr);
+    float ratio = 1.0 / sin(tr);
 
     cout << "The ratio of slit width to wavelength is: "<<ratio;
 
