@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    double thita;
+    float thita;
     
     cout<<"Enter angle in degrees: ";
     
@@ -12,16 +12,12 @@ int main()
 
     float pi=3.1416;
     
-    double tr = thita * pi / 180;
+    float tr = thita * pi / 180;
 
    
-    double ratio = 1 / sin(tr);
+    float ratio = 1 / sin(tr);
 
     cout << "The ratio of slit width to wavelength is: "<<ratio;
 
 
 }
-
-
-
-
