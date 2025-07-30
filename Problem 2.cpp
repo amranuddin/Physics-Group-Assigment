@@ -8,7 +8,7 @@ int main()
 
     float pi=3.1416;
     
-    double tr=45*pi/180;
+    float tr=45*pi/180;
 
    
     float ratio = 1.0 / sin(tr);
