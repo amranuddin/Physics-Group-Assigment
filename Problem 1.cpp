@@ -14,7 +14,7 @@ void mthorder (float lem)
     
     double dnm = d*1000; 
 
-    int m=round( (dnm*sin(tr) ) / lem);
+    int m=floor( (dnm*sin(tr) ) / lem);
 
     cout <<"The final answer: "<<m<<"-th order maxima.";
 
